@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Syed Abdul Aziz — Portfolio</title>
+  <title>Syed Abdul Aziz â€” Portfolio</title>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700;800&display=swap" rel="stylesheet">
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-    /* ── DARK MODE (default) ── */
+    /* â”€â”€ DARK MODE (default) â”€â”€ */
     :root {
       --bg: #0a0a0f;
       --surface: #13131a;
@@ -19,7 +19,7 @@
       --muted: rgba(240,239,246,0.45);
     }
 
-    /* ── LIGHT MODE ── */
+    /* â”€â”€ LIGHT MODE â”€â”€ */
     [data-theme="light"] {
       --bg: #f7f6f2;
       --surface: #ffffff;
@@ -48,7 +48,7 @@
     .d1{animation-delay:.1s} .d2{animation-delay:.22s} .d3{animation-delay:.36s}
     .d4{animation-delay:.5s} .d5{animation-delay:.64s}
 
-    /* ── NAV ── */
+    /* â”€â”€ NAV â”€â”€ */
     nav {
       display: flex;
       justify-content: space-between;
@@ -110,7 +110,7 @@
       animation: float 3s ease-in-out infinite;
     }
 
-    /* ── HERO ── */
+    /* â”€â”€ HERO â”€â”€ */
     .hero {
       padding: 72px 36px 60px;
       border-bottom: 1px solid var(--border);
@@ -172,7 +172,7 @@
     }
     .btn-ghost:hover { border-color: var(--muted); }
 
-    /* ── AVATAR ── */
+    /* â”€â”€ AVATAR â”€â”€ */
     .avatar-wrap {
       position: relative; width: 130px; height: 130px;
       flex-shrink: 0;
@@ -194,7 +194,7 @@
       transition: border-color 0.35s;
     }
 
-    /* ── STATS ── */
+    /* â”€â”€ STATS â”€â”€ */
     .stats {
       display: grid; grid-template-columns: repeat(3,1fr);
       border-bottom: 1px solid var(--border);
@@ -215,7 +215,7 @@
       letter-spacing: 0.06em; text-transform: uppercase; margin-top: 2px;
     }
 
-    /* ── SECTIONS ── */
+    /* â”€â”€ SECTIONS â”€â”€ */
     .section { padding: 48px 36px; border-bottom: 1px solid var(--border); }
     .section-header { display: flex; align-items: baseline; gap: 14px; margin-bottom: 28px; }
     h2 {
@@ -228,7 +228,7 @@
       font-family: 'Syne', sans-serif; font-weight: 700; letter-spacing: 0.1em;
     }
 
-    /* ── SKILLS ── */
+    /* â”€â”€ SKILLS â”€â”€ */
     .skills-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(155px,1fr)); gap: 10px; }
     .skill-card {
       background: var(--surface); border: 1px solid var(--border);
@@ -240,7 +240,7 @@
     .skill-name { font-size: 13px; color: var(--text); }
     .skill-tag  { font-size: 11px; color: var(--muted); margin-top: 2px; }
 
-    /* ── PROJECTS ── */
+    /* â”€â”€ PROJECTS â”€â”€ */
     .projects-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px,1fr)); gap: 14px; }
     .project-card {
       background: var(--surface); border: 1px solid var(--border);
@@ -261,12 +261,14 @@
     }
     .project-desc { font-size: 12px; color: var(--muted); line-height: 1.6; margin-bottom: 12px; font-weight: 300; }
     .project-tags { display: flex; gap: 5px; flex-wrap: wrap; }
+    .project-link { display: inline-block; margin-top: 12px; font-size: 12px; color: var(--accent2); text-decoration: none; font-weight: 400; }
+    .project-link:hover { text-decoration: underline; }
     .tag {
       background: rgba(123,97,255,0.12); color: var(--accent);
       font-size: 11px; padding: 2px 9px; border-radius: 20px;
     }
 
-    /* ── CONTACT ── */
+    /* â”€â”€ CONTACT â”€â”€ */
     .contact-box {
       background: var(--surface); border: 1px solid var(--border);
       border-radius: 14px; padding: 36px; text-align: center;
@@ -292,7 +294,7 @@
 </head>
 <body>
 
-  <!-- ── NAV ── -->
+  <!-- â”€â”€ NAV â”€â”€ -->
   <nav>
     <div class="nav-logo">syed<span>.</span>dev</div>
     <div class="nav-links">
@@ -317,19 +319,19 @@
     </div>
   </nav>
 
-  <!-- ── HERO ── -->
+  <!-- â”€â”€ HERO â”€â”€ -->
   <section class="hero">
     <div>
-      <div class="hero-eyebrow fade d1">Aspiring AI Engineer · Hyderabad, India</div>
+      <div class="hero-eyebrow fade d1">Software Engineer Â· Backend &amp; AI Â· Bangalore, India</div>
       <h1 class="fade d2">Hi, I'm <em>Syed</em><br>Abdul Aziz<span class="cursor"></span></h1>
       <p class="hero-desc fade d3">
-        I'm learning to design and build full-stack websites and AI-powered
-        applications. Currently mastering HTML, CSS and JavaScript —
-        on my way to React, Node.js and beyond.
+        B.E. Computer Science graduate (2025, Sathyabama) building backend systems and
+        AI-powered applications â€” Python, Django, Node.js, React and
+        applied machine learning. Team Lead SDE Intern at Bluestock Fintech (IPO data platform and REST API).
       </p>
       <div class="hero-cta fade d4">
         <a href="#projects"><button class="btn-filled">View my work</button></a>
-        <a href="#contact"><button class="btn-ghost">Get in touch →</button></a>
+        <a href="#contact"><button class="btn-ghost">Get in touch â†’</button></a>
       </div>
     </div>
     <div class="avatar-wrap fade d3">
@@ -338,53 +340,74 @@
     </div>
   </section>
 
-  <!-- ── STATS ── -->
+  <!-- â”€â”€ STATS â”€â”€ -->
   <div class="stats">
-    <div class="stat fade d2"><div class="stat-num">3</div><div class="stat-label">Techs learning</div></div>
-    <div class="stat fade d3"><div class="stat-num">1</div><div class="stat-label">Projects built</div></div>
-    <div class="stat fade d4"><div class="stat-num">Day 1</div><div class="stat-label">Of the journey</div></div>
+    <div class="stat fade d2"><div class="stat-num">6</div><div class="stat-label">Projects shipped</div></div>
+    <div class="stat fade d3"><div class="stat-num">B.E. CSE</div><div class="stat-label">Class of 2025</div></div>
+    <div class="stat fade d4"><div class="stat-num">AI + Backend</div><div class="stat-label">Core focus</div></div>
   </div>
 
-  <!-- ── SKILLS ── -->
+  <!-- â”€â”€ SKILLS â”€â”€ -->
   <section class="section" id="skills">
     <div class="section-header"><span class="section-num">01</span><h2>Skills & tools</h2></div>
     <div class="skills-grid">
-      <div class="skill-card fade d1"><div class="skill-icon">🌐</div><div class="skill-name">HTML</div><div class="skill-tag">Structure</div></div>
-      <div class="skill-card fade d2"><div class="skill-icon">🎨</div><div class="skill-name">CSS</div><div class="skill-tag">Styling</div></div>
-      <div class="skill-card fade d3"><div class="skill-icon">⚡</div><div class="skill-name">JavaScript</div><div class="skill-tag">Interactivity</div></div>
-      <div class="skill-card fade d4"><div class="skill-icon">⚛️</div><div class="skill-name">React</div><div class="skill-tag">Coming soon</div></div>
-      <div class="skill-card fade d5"><div class="skill-icon">🖥️</div><div class="skill-name">Node.js</div><div class="skill-tag">Coming soon</div></div>
-      <div class="skill-card fade d1"><div class="skill-icon">🤖</div><div class="skill-name">AI / LLMs</div><div class="skill-tag">Goal</div></div>
+      <div class="skill-card fade d1"><div class="skill-icon">ðŸ</div><div class="skill-name">Python</div><div class="skill-tag">Django Â· pandas</div></div>
+      <div class="skill-card fade d2"><div class="skill-icon">âš¡</div><div class="skill-name">JavaScript / TypeScript</div><div class="skill-tag">ESM Â· Next.js</div></div>
+      <div class="skill-card fade d3"><div class="skill-icon">âš›ï¸</div><div class="skill-name">React</div><div class="skill-tag">Frontend</div></div>
+      <div class="skill-card fade d4"><div class="skill-icon">ðŸ–¥ï¸</div><div class="skill-name">Node.js</div><div class="skill-tag">Express Â· REST APIs</div></div>
+      <div class="skill-card fade d5"><div class="skill-icon">ðŸ—„ï¸</div><div class="skill-name">SQL</div><div class="skill-tag">MySQL Â· PostgreSQL</div></div>
+      <div class="skill-card fade d1"><div class="skill-icon">ðŸ¤–</div><div class="skill-name">AI / ML</div><div class="skill-tag">scikit-learn Â· RAG Â· LLMs</div></div>
+      <div class="skill-card fade d2"><div class="skill-icon">ðŸ“Š</div><div class="skill-name">Power BI</div><div class="skill-tag">Dashboards Â· Excel</div></div>
+      <div class="skill-card fade d3"><div class="skill-icon">ðŸ³</div><div class="skill-name">Docker &amp; Git</div><div class="skill-tag">Tooling</div></div>
     </div>
   </section>
 
-  <!-- ── PROJECTS ── -->
+  <!-- â”€â”€ PROJECTS â”€â”€ -->
   <section class="section" id="projects">
     <div class="section-header"><span class="section-num">02</span><h2>Projects</h2></div>
     <div class="projects-grid">
       <div class="project-card fade d1">
-        <div class="project-title">My first webpage</div>
-        <div class="project-desc">Interactive page with a live counter, name input, and styled cards. My very first HTML + CSS + JS project.</div>
-        <div class="project-tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span></div>
+        <div class="project-title">SpotifyCares AI Support Agent</div>
+        <div class="project-desc">End-to-end AI support pipeline: intent classification, BM25 retrieval over 18,685 past resolutions, grounded reply drafting with a local LLM, and an evidence-based escalation policy â€” 9.0% false auto-handle vs 34.7% baseline. Hiver SDE take-home.</div>
+        <div class="project-tags"><span class="tag">Python</span><span class="tag">scikit-learn</span><span class="tag">BM25</span><span class="tag">Ollama</span></div>
+        <a class="project-link" href="https://github.com/abbu78671/hiver-support-agent" target="_blank">View on GitHub â†’</a>
       </div>
       <div class="project-card fade d2">
-        <div class="project-title">Weather app</div>
-        <div class="project-desc">Fetches live weather data from a real API. This is where I learn backend thinking.</div>
-        <div class="project-tags"><span class="tag">JavaScript</span><span class="tag">API</span><span class="tag">Coming soon</span></div>
+        <div class="project-title">Vireo Refund Auditor</div>
+        <div class="project-desc">AI-assisted audit tool that reconciled a 12,238-row support export â€” removing 638 migration duplicates and normalizing legacy amounts â€” then flagged refund exceptions. TF-IDF + logistic regression audit classifier at 91.1% holdout accuracy, with a Streamlit dashboard.</div>
+        <div class="project-tags"><span class="tag">Python</span><span class="tag">pandas</span><span class="tag">scikit-learn</span><span class="tag">Streamlit</span></div>
+        <a class="project-link" href="https://github.com/abbu78671/vireo-refund-auditor" target="_blank">View on GitHub â†’</a>
       </div>
       <div class="project-card fade d3">
-        <div class="project-title">Full-stack app</div>
-        <div class="project-desc">A complete app — React frontend, Node.js backend, and a real database. My milestone project.</div>
-        <div class="project-tags"><span class="tag">React</span><span class="tag">Node.js</span><span class="tag">MongoDB</span></div>
+        <div class="project-title">Finance OS API</div>
+        <div class="project-desc">Production-style finance dashboard backend: JWT auth with refresh-token rotation and replay detection, role-based access control, cached analytics APIs, rate limiting and structured logging. Fully containerized with tests.</div>
+        <div class="project-tags"><span class="tag">Node.js</span><span class="tag">Express</span><span class="tag">PostgreSQL</span><span class="tag">Redis</span><span class="tag">Docker</span></div>
+        <a class="project-link" href="https://github.com/abbu78671/finance-os-api" target="_blank">View on GitHub â†’</a>
+      </div>
+      <div class="project-card fade d4">
+        <div class="project-title">Fermor Homepage</div>
+        <div class="project-desc">Reimagined homepage for a UK fintech â€” Next.js 14 with TypeScript, hand-written CSS, semantic HTML and accessibility-first design. Frontend design assignment.</div>
+        <div class="project-tags"><span class="tag">Next.js</span><span class="tag">TypeScript</span><span class="tag">CSS</span></div>
+        <a class="project-link" href="https://github.com/abbu78671/fermor-homepage" target="_blank">View on GitHub â†’</a>
+      </div>
+          <div class="project-card fade d5">
+        <div class="project-title">Banking Transaction Analytics</div>
+        <div class="project-desc">Analyzed 1M+ transaction records with SQL and Python to spot spending patterns and anomalies, reducing fraud risk by 20%. Power BI dashboards for BFSI KPIs.</div>
+        <div class="project-tags"><span class="tag">Python</span><span class="tag">SQL</span><span class="tag">Power BI</span></div>
+      </div>
+      <div class="project-card fade d1">
+        <div class="project-title">Weather Report API</div>
+        <div class="project-desc">RESTful API in Django returning real-time, location-specific weather as structured JSON from external data providers.</div>
+        <div class="project-tags"><span class="tag">Python</span><span class="tag">Django</span><span class="tag">REST</span></div>
       </div>
     </div>
   </section>
 
-  <!-- ── CONTACT ── -->
+  <!-- â”€â”€ CONTACT â”€â”€ -->
   <section class="section" id="contact">
     <div class="contact-box fade d1">
-      <h2>Let's connect 👋</h2>
-      <p>I'm Syed Abdul Aziz — learning, building and growing every day.<br>Reach out if you want to collaborate or just say hi.</p>
+      <h2>Let's connect ðŸ‘‹</h2>
+      <p>I'm Syed Abdul Aziz â€” a backend &amp; AI engineer looking for my first full-time developer role.<br>Open to opportunities across India and remote. Let's talk.</p>
       <div class="contact-links">
         <a class="contact-link" href="https://github.com/abbu78671" target="_blank">GitHub</a>
         <a class="contact-link" href="https://www.linkedin.com/in/syed-abdul-aziz-984b72274/" target="_blank">LinkedIn</a>
@@ -393,7 +416,7 @@
     </div>
   </section>
 
-  <footer>© 2026 Syed Abdul Aziz · Built with HTML · CSS · JavaScript · and a lot of curiosity</footer>
+  <footer>Â© 2026 Syed Abdul Aziz Â· Built with HTML Â· CSS Â· JavaScript</footer>
 
   <script>
     // Dark / Light mode toggle
@@ -411,3 +434,4 @@
 
 </body>
 </html>
+ 
